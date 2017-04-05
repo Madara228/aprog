@@ -1,0 +1,31 @@
+@font-face {
+	font-family: bighouse;
+	src: url(12345.ttf);
+
+	font-family: call;
+	src: url(Calligraph_Medium.ttf);
+}
+.Nachalo {
+	text-align: center;
+	color: red;
+	font-family: bighouse, "Georgia", serif;
+	font-size: 2em;
+	text-shadow: 5px 5px 3px;
+}
+.Glava1{
+	color: black;
+	font-family: call, "Georgia", serif;
+	font-size: 1.5em;
+
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+a:hover{
+	color:green;
+	transition: 4s;
+}
+a:active {
+	color: red;
+}
