@@ -8,14 +8,15 @@
 .Nachalo {
 	text-align: center;
 	color: red;
-	font-family: bighouse, "Georgia", serif;
+	font-family:  "Georgia", serif;
 	font-size: 2em;
-	text-shadow: 5px 5px 3px;
+	text-shadow: 3px 3px 3px;
 }
 .Glava1{
 	color: black;
 	font-family: call, "Georgia", serif;
 	font-size: 1.5em;
+	text-shadow: 1px 1px 1px;
 
 }
 a{
@@ -24,7 +25,7 @@ a{
 }
 a:hover{
 	color:green;
-	transition: 4s;
+	transition: 2s;
 }
 a:active {
 	color: red;
