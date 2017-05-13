@@ -1,0 +1,157 @@
+* {
+ margin: 0;
+ padding: 0; 
+}
+
+
+header { 
+	padding: 100px 0 0 0;
+	display: block;
+}
+header h1 {
+	width: 960px; 
+	margin: 0 auto;
+}
+a { 
+	color: #eee; 
+}
+a:hover { 
+	color: white; 
+}
+
+.nav-wrap { 
+	margin: 50px auto; 
+	background-color: rgba(0,0,0,0.6); 
+	border-top:    2px solid white; 
+	border-bottom: 2px solid white; 
+}
+
+
+.group:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+#example-one { 
+	margin: 0 auto; 
+	list-style: none; 
+	position: relative; 
+	width: 960px;
+	text-align: center;
+}
+#example-one li { 
+	display: inline-block;	
+}
+#example-one a { 
+	color: #ddd; 
+	font-size: 14px; 
+	float: left;
+	padding: 6px 10px 4px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#example-one a:hover { 
+	color: white; 
+}
+#magic-line { 
+	position: absolute;
+	bottom: -2px; 
+	left: 0; 
+	width: 100px; 
+	height: 2px; 
+	background: #fe4902;
+}
+
+/*ul{
+	background-color: grey;
+	list-style: none;
+	text-align: center;
+/*	display: block;*/
+/*
+}
+ul li {
+	display: inline-block;
+	padding: 15px 5px;
+	border-right: 1px solid white;
+
+}
+ul li:hover{
+	background-color: wheat;
+	transition: 0.2s;
+}
+ul li:first-child() {
+	border-right: : 1px solid white;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 1.6em;
+	color: white;
+}
+ul li a:hover{
+	text-decoration: underline;
+	color: red;
+	font-size: 1.8em;
+	transition: 0.2s;
+}
+ul li a:hover{
+	text-decoration: underline;
+	color: red;
+	font-size: 1.8em;
+	transition: 0.2s;
+	background-color: wheat;
+}
+ul li:last-child{
+	border:none;*/
+/*}*/
+body { 
+	font: 14px Georgia, serif;
+	background: #2F4F4F; 
+	color: #2F4F4F; 
+}
+.white_tab{
+	background-color: white;
+	padding-left: 50%;
+	padding-right: 50%;
+	color: white;
+	padding-bottom: 10%;
+}
+.Hello{
+	color: black;
+	font-size: 1.5em;
+	text-align: center;
+	padding-bottom: 30px;
+
+}
+.amin{
+	background-color: wheat;
+	text-align: center;
+}
+.description{
+	font-size: 1.2em;
+}
+
+/*_________________________Carusel____________________________________*/
+.carusel-slider{
+	background-color: black;
+}
+.carusel-cell{
+	width: 50%;
+	height: 250px;
+	background-color: wheat;
+	margin-right: 10px;
+	border-radius: 5px;
+
+}
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+/*____________________Carusel________________________________________*/
+footer{
+	padding: 30px 0px 20px 20px;
+}
