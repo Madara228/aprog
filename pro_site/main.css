@@ -1,0 +1,110 @@
+* {
+ margin: 0;
+ padding: 0; 
+}
+
+
+header { 
+	padding: 50px 0 0 0;
+	display: block;
+}
+header h1 {
+	width: 960px; 
+	margin: 0 auto;
+}
+a { 
+	color: #eee; 
+}
+a:hover { 
+	color: white; 
+}
+
+.nav-wrap { 
+	margin: 20px auto; 
+	background-color: rgba(0,0,0,0.6); 
+	border-top:    2px solid white; 
+	border-bottom: 2px solid white; 
+}
+
+
+.group:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+#menu { 
+	margin: 0 auto; 
+	list-style: none; 
+	position: relative; 
+	width: 960px;
+	text-align: center;
+}
+#menu li { 
+	display: inline-block;	
+}
+#menu a { 
+	color: #ddd; 
+	font-size: 14px; 
+	float: left;
+	padding: 6px 10px 4px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#menu a:hover { 
+	color: white; 
+}
+body { 
+	font: 14px Georgia, serif;
+	background: #2F4F4F; 
+	color: #2F4F4F; 
+}
+.white_tab{
+	background-color: white;
+	padding-left: 50%;
+	padding-right: 50%;
+	color: white;
+	padding-bottom: 10%;
+}
+.Hello{
+	color: black;
+	font-size: 1.5em;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+.amin{
+	background-color: wheat;
+	text-align: center;
+}
+.description{
+	font-size: 1.2em;
+}
+
+/*_________________________Carusel____________________________________*/
+.carusel-slider{
+	background-color: black;
+}
+.carusel-cell{
+	width: 50%;
+	height: 320px;
+	background-color: wheat;
+	margin-right: 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	padding: 0px 20px;
+
+}
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+/*____________________Carusel________________________________________*/
+footer{
+	padding: 30px 0px 20px 20px;
+	border-top: 4px solid white;
+}
