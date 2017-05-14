@@ -1,0 +1,41 @@
+#nph{
+	width: 100%;
+	height: 20%;
+}
+.np{
+	width: 23%;
+	height: 4%;
+}
+img{
+	width: 75px;
+	height: 50px;
+}
+.sp{
+	color: #4040FF;
+	font-style: 22px;
+}
+.fl{
+	display: flex;
+	flex-direction: column;
+}
+#opin{
+	height: 100px;
+}
+#plus{
+	width: 75px;
+	font-size: 50px;
+
+}
+
+.thp{
+	font-size: 22px;
+	color: #4040FF;
+}
+#wrn{
+	width: 60px;
+	height: 60px;
+}
+#wrnt{
+	font-size: 30px;
+	color: #4040FF;
+}
